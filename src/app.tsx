@@ -106,7 +106,7 @@ export function App() {
 
             <div className="space-y-2">
               <Label>Modelo</Label>
-              <Select disable defaultValue='gpt-3.5'>
+              <Select disabled defaultValue='gpt-3.5'>
                 <SelectTrigger>
                   <SelectValue />
                 </SelectTrigger>
